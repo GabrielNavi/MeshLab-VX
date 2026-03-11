@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MeshLab
+Exec=/usr/lib/meshlab/MeshLab2025.07-linux_x86_64.AppImage
+Icon=meshlab
+Categories=Education;Escuela40;
+Type=Application
+Terminal=false
+Comment=Acceso directo a MeshLab

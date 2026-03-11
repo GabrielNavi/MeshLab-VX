@@ -1,0 +1,5 @@
+vx-dga-x-meshlab (1.0-1) jammy; urgency=medium
+
+  * Creación inicial del paquete MeshLab AppImage para Vitalinux
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Wed, 11 Mar 2026 00:00:00 +0100

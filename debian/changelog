@@ -1,3 +1,28 @@
+vx-dga-l-meshlab (1.1-4) jammy; urgency=medium
+
+  * Limpieza de archivos innecesarios y ajuste final para estructura AppImage.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:30:00 +0100
+vx-dga-l-meshlab (1.1-3) jammy; urgency=medium
+
+  * Restaurado override_dh_strip en debian/rules para evitar errores de runtime.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:29:00 +0100
+vx-dga-l-meshlab (1.1-2) jammy; urgency=medium
+
+  * Actualización del desktop launcher para usar symlink y parámetros estándar.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:28:00 +0100
+vx-dga-l-meshlab (1.1-1) jammy; urgency=medium
+
+  * postinst y prerm actualizados para crear y eliminar symlink en /usr/bin/vx-meshlab.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:27:00 +0100
+vx-dga-l-meshlab (1.1-0) jammy; urgency=medium
+
+  * Reestructuración del paquete: AppImage movido a usr/share/vitalinux/appimages, eliminación de usr/lib y postrm.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:26:00 +0100
 vx-dga-l-meshlab (1.0-1) jammy; urgency=medium
 
   * Creación inicial del paquete MeshLab AppImage para Vitalinux

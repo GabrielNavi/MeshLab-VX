@@ -13,3 +13,4 @@ Type=Application
 Categories=Education;Escuela40;
 StartupNotify=true
 Hidden=false
+MimeType=application/vnd.meshlab-project;

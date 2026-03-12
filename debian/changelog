@@ -1,3 +1,8 @@
+vx-dga-l-meshlab (1.1-5) jammy; urgency=medium
+
+  * Añadido soporte MIME: org.vitalinux.starc-architect.xml en usr/share/mime/packages.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Thu, 12 Mar 2026 13:31:00 +0100
 vx-dga-l-meshlab (1.1-4) jammy; urgency=medium
 
   * Limpieza de archivos innecesarios y ajuste final para estructura AppImage.

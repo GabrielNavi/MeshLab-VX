@@ -1,8 +1,15 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=MeshLab
-Exec=/usr/lib/meshlab/MeshLab2025.07-linux_x86_64.AppImage
+Name[en]=MeshLab
+Name[es]=MeshLab
+Comment=AppImage MeshLab
+Comment[en]=AppImage MeshLab
+Comment[es]=Aplicación MeshLab
 Icon=meshlab
-Categories=Education;Escuela40;
-Type=Application
+Exec=vx-meshlab %F
 Terminal=false
-Comment=Acceso directo a MeshLab
+Type=Application
+Categories=Education;Escuela40;
+StartupNotify=true
+Hidden=false

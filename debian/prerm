@@ -1,5 +1,21 @@
-#!/bin/sh
+#!/bin/bash
+# prerm script for vx-dga-l-meshlab
 set -e
+
+case "$1" in
+    remove|deconfigure)
+        BINARIO="/usr/bin/vx-meshlab"
+
+        [ -L "${BINARIO}" ] && rm -f "${BINARIO}" && \
+        echo "#> Eliminamos el link: ${BINARIO}"
+    ;;
+    upgrade) ;;
+    failed-upgrade) ;;
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
 
 #DEBHELPER#
 

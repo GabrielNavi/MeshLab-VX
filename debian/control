@@ -1,11 +1,11 @@
-Source: vx-dga-x-meshlab
+Source: vx-dga-l-meshlab
 Section: education
 Priority: optional
 Maintainer: Gabriel Navia <correos@gabrielnav.es>
 Standards-Version: 4.6.0
 Build-Depends: debhelper-compat (= 13)
 
-Package: vx-dga-x-meshlab
+Package: vx-dga-l-meshlab
 Architecture: amd64
 Depends: ${misc:Depends}
 Description: Lanzador de MeshLab AppImage para Vitalinux

@@ -1,5 +1,5 @@
 Source: vx-dga-l-meshlab
-Section: education
+Section: graphics
 Priority: optional
 Maintainer: Gabriel Navia <correos@gabrielnav.es>
 Standards-Version: 4.6.0
@@ -9,5 +9,5 @@ Package: vx-dga-l-meshlab
 Architecture: amd64
 Depends: ${misc:Depends}
 Description: Lanzador de MeshLab AppImage para Vitalinux
- Este paquete instala MeshLab AppImage en /usr/lib/meshlab/
+ Este paquete instala MeshLab AppImage en /usr/share/vitalinux/appimages/
  y crea un acceso directo en el menú de aplicaciones de Vitalinux.

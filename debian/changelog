@@ -1,3 +1,12 @@
+vx-dga-l-meshlab (1.1-6) jammy; urgency=medium
+
+  * Actualizadas categorías del lanzador a Graphics;3DGraphics;Engineering.
+  * Cambiada Section del paquete a graphics.
+  * Corregidas rutas en README y descripción de debian/control a /usr/share/vitalinux/appimages/.
+  * Reestructurado README para alinearlo con el formato de MicroCode.
+
+ -- Gabriel Navia <correos@gabrielnav.es>  Mon, 16 Mar 2026 18:00:00 +0100
+
 vx-dga-l-meshlab (1.1-5) jammy; urgency=medium
 
   * Añadido soporte MIME: org.vitalinux.starc-architect.xml en usr/share/mime/packages.
